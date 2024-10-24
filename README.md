@@ -9,6 +9,7 @@ Significance: By providing affordable, nutritious meal options ranging from sing
 
  
 
+
 2. Target Audience 
 
 The target audience for the budget meal website includes: 
@@ -32,6 +33,7 @@ View nutritional information like calories, making it easier to choose healthier
 Share their own affordable meals, allowing others to benefit from a growing library of low-cost meals to buy. 
 
  
+
 
 3. Technology Stack 
 
@@ -58,6 +60,7 @@ MySQL: Stores user data, meals, comments, and other relevant site content.
 Apache: Hosts the application and processes web requests. 
 
 Linux (XAMPP): Simulates the production server environment for local testing and development. 
+
 
  
 
@@ -121,6 +124,7 @@ Update: Users can update their profiles
 
 Delete: Users can delete their own meal posts if needed, keeping the content relevant and up to date. 
 
+
  
 
 5. Database Design 
@@ -159,6 +163,7 @@ To avoid redundancy, the database will be normalized, ensuring that meal details
 
  
 
+
 6. User Interface and Experience 
 
 The website’s design will focus on being simple, intuitive, and user-friendly to accommodate users from different backgrounds, including those with little to no technical skills. 
@@ -177,11 +182,13 @@ The design will prioritize ease of use, ensuring that users can quickly find mea
 
 The comment feature will encourage engagement, allowing users to discuss the meals, offer tips, and share feedback. 
 
+
  
 
 7. Security Considerations 
 
 Input Validation: All forms will have input validation to prevent malicious data from being entered. For example, when users post meals or leave comments, their inputs will be sanitized to prevent SQL injection or XSS attacks. 
+
 
  
 
