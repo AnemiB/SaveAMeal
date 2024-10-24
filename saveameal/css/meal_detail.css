@@ -1,0 +1,226 @@
+body {
+    font-family: 'Lato', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+header {
+    background-color: #B0EDFF;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 1% !important;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive !important;
+    color: #000000;
+    text-align: center;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    left: 1%;
+}
+
+.logo {
+    text-align: center;
+    margin-left: 590px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 14%;
+    margin-top: -6.5%;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 0.5%;
+    border-radius: 25%;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 25px;
+    border-color: #ffffff00;
+}
+
+.search-bar button {
+    background-color: #ffffff00 !important;
+    border: none !important;
+    padding: 5px !important;
+    cursor: pointer !important;
+    border-radius: 25% !important;
+    margin-left: -35px !important;
+}
+
+main {
+    padding: 20px 15%;
+}
+
+.meal-detail {
+    background-color: #DEF8FF;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.meal-detail h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.meal-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.meal-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.instructions h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.instructions p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.buy-button {
+    background-color: #050A90;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.buy-button:hover {
+    background-color: #00034f;
+}
+
+.comments-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.comments-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.comments-list {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #DEF8FF;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    color: #000;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #050A90;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #00034f;
+}
+
+.like-btn {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.like-count {
+    color: #00034f; 
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color: #3c3c3c;
+    padding: 20px;
+    text-align: center;
+    color: #ccc;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-nav {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
