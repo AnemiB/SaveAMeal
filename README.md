@@ -7,7 +7,7 @@ Moreover, many existing meal planning websites and apps do not focus on affordab
 
 Significance: By providing affordable, nutritious meal options ranging from single portion size to family portion size, this website aims to reduce the financial strain on households, helping users to buy affordable meals within their budget. The application will also enable users to share their own low-cost meals to buy, fostering a community-driven resource for others in similar situations. 
 
- 
+ http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/
 
 
 2. Target Audience 
