@@ -38,9 +38,6 @@ Visit the SaveAMeal website at:
 http://saveameal.co.za as well as
 http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ 
 
-
-
-
 ### Mockup:
 ![MacBook_Dresser_Mockup_3_optimized_10](https://github.com/user-attachments/assets/69bee4e5-0e4c-462f-9f09-288306bf6622)
 
@@ -113,7 +110,8 @@ The initial concept was to develop a platform tailored to users who need low cos
 ### Wireframes:
 Log In, Sign Up, Main Feed, Post Meal, Meal Details
 
-![Group 32](https://github.com/user-attachments/assets/6780b456-0121-44d0-86cc-326802b58bb4)
+![Group 32](https://github.com/user-attachments/assets/8c392d66-93a9-4005-84ee-7392f3463c46)
+
 
 ### User Interface and Experience:
 The UI is designed for simplicity and ease of navigation. Meal cards are displayed in a clean grid format, with intuitive forms for creating and editing meals, and a straightforward layout that enables users to navigate with ease.
@@ -144,7 +142,7 @@ https://drive.google.com/file/d/1rvC4l12_sevLojgkqTrCnqQIp6AJeyN8/view?usp=shari
 
 ## Roadmap
 ER Diagram
-![history drawio (1)](https://github.com/user-attachments/assets/5b0e7393-fa9b-4f1d-92e4-d694542e4a3d)
+![saveameal drawio](https://github.com/user-attachments/assets/3f200578-1e2d-434e-9ded-270a7475191e)
 
 ## Conclusion
 SaveAMeal has provided a rewarding learning experience, solidifying skills in PHP, MySQL, and database management. The project also highlighted the importance of user-centered design. Future expansions could include enhanced user interactions and additional features to meet community needs.
