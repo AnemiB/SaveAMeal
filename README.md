@@ -55,8 +55,7 @@ http://saveameal.co.za as well as
 http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ 
 
 ### Mockup:
-![MacBook_Dresser_Mockup_3_optimized_10](https://github.com/user-attachments/assets/69bee4e5-0e4c-462f-9f09-288306bf6622)
-
+![iMac_Mockup_1](https://github.com/user-attachments/assets/86a7e184-a9a8-4f2a-a4b7-99376ba0c0b6)
 
 ### Project description:
 The SaveAMeal project is a budget-friendly platform designed to provide affordable and nutritious meal solutions for individuals and families facing financial constraints. It offers a community space for sharing cost-effective recipes, specifically targeting a South African audience.
