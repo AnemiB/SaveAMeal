@@ -15,7 +15,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Live Website](#live)
+  * [Live Website](#live-website)
   * [Mockup](#mockup)
   * [Project Description](#project-description)
   * [Problem Statement](#problem-statement)
