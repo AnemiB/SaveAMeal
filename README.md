@@ -6,29 +6,44 @@
 
 ## Table of Contents
 
+## <p align="center" style="text-decoration: none !important;padding:0;margin:0;">Anemi Breytenbach <br> 231178 <br> DV 200 Term 4</p>
+
+<p align="center">
+<img src="saveameal/images/logowhite.png" alt="Logo" width="100" height="100">
+</p>
+
+## Table of Contents
+
 * [About the Project](#about-the-project)
   * [Mockup](#mockup)
-  * [Project description](#project-description)
+  * [Project Description](#project-description)
+  * [Problem Statement](#problem-statement)
+  * [Target Audience](#target-audience)
+  * [Significance](#significance)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [How to install](#how-to-install)
+  * [How to Install](#how-to-install)
 * [Features and Functionality](#features-and-functionality)
 * [Concept Process](#concept-process)
-   * [Ideation](#ideation)
-   * [Wireframes](#wireframes)
+  * [Ideation](#ideation)
+  * [Security Considerations](#security-considerations)
+  * [Wireframes](#wireframes)
+  * [User Interface and Experience](#user-interface-and-experience)
 * [Development Process](#development-process)
-    * [Implementation](#implementation)
-    * [Highlights](#highlights)
-    * [Challenges](#challenges)
+  * [Implementation Process](#implementation-process)
+  * [Highlights](#highlights)
+  * [Challenges](#challenges)
 * [Future Implementation](#future-implementation)
 * [Final Outcome](#final-outcome)
-    * [Video Demonstration](#demonstration-video)
+  * [Demonstration Video](#demonstration-video)
+* [Roadmap](#roadmap)
 * [Conclusion](#conclusion)
 * [Author](#author)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
+
 
 ## About the project:
 ![Screenshot (12849)](https://github.com/user-attachments/assets/8b267148-dffb-42ca-b083-7fae57eeccea)
