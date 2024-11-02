@@ -15,6 +15,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+  * [Live Website](#live)
   * [Mockup](#mockup)
   * [Project Description](#project-description)
   * [Problem Statement](#problem-statement)
@@ -48,7 +49,7 @@
 ## About the project:
 ![Screenshot (12849)](https://github.com/user-attachments/assets/8b267148-dffb-42ca-b083-7fae57eeccea)
 
-# Live Website
+### Live Website
 Visit the SaveAMeal website at: 
 http://saveameal.co.za as well as
 http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ 
