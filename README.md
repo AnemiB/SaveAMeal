@@ -1,201 +1,168 @@
-# SaveAMeal
-1. Problem Statement 
+## <p align="center" style="text-decoration: none !important;padding:0;margin:0;">Anemi Breytenbach <br> 231178 <br> DV 200 Term 4</p>
+
+<p align="center">
+<img src="saveameal/images/logowhite.png" alt="Logo" width="160" height="140">
+</p>
+
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Mockup](#mockup)
+  * [Project description](#project-description)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [How to install](#how-to-install)
+* [Features and Functionality](#features-and-functionality)
+* [Concept Process](#concept-process)
+   * [Ideation](#ideation)
+   * [Wireframes](#wireframes)
+* [Development Process](#development-process)
+    * [Implementation](#implementation)
+    * [Highlights](#highlights)
+    * [Challenges](#challenges)
+* [Future Implementation](#future-implementation)
+* [Final Outcome](#final-outcome)
+    * [Video Demonstration](#demonstration-video)
+* [Conclusion](#conclusion)
+* [Author](#author)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-Many individuals and families in South Africa face financial challenges when it comes to food expenses, particularly with the rising cost of living in the current economic recession. Finding budget-friendly meals that are nutritious and satisfying can be difficult, and many turn to processed or unhealthy food options simply because they are more affordable. This issue affects not only low-income households but also students, single parents, and working professionals who need to save money but don't have time for meal planning. 
+## About the project:
+![Screenshot (12182)](https://github.com/user-attachments/assets/40ef7da5-a123-4abd-b6f3-649818357118)
 
-Moreover, many existing meal planning websites and apps do not focus on affordability, and the ones that do are often tailored to different currencies or regions. A South African-specific application that provides meals under R100 - R150 will help address this issue by offering easy, cost-effective meal solutions for individuals and families. 
+Live Website
+Visit the SaveAMeal website at: 
+http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ and http://saveameal.co.za
 
-Significance: By providing affordable, nutritious meal options ranging from single portion size to family portion size, this website aims to reduce the financial strain on households, helping users to buy affordable meals within their budget. The application will also enable users to share their own low-cost meals to buy, fostering a community-driven resource for others in similar situations. 
 
- http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/
+### Mockup:
+![MacBook_Dresser_Mockup_3_optimized_10](https://github.com/user-attachments/assets/69bee4e5-0e4c-462f-9f09-288306bf6622)
 
 
-2. Target Audience 
+### Project description:
+The SaveAMeal project is a budget-friendly platform designed to provide affordable and nutritious meal solutions for individuals and families facing financial constraints. It offers a community space for sharing cost-effective recipes, specifically targeting a South African audience.
 
-The target audience for the budget meal website includes: 
+### Problem statement
+Economic challenges in South Africa leave many households struggling to afford nutritious meals. SaveAMeal provides meal options priced under R100 - R150, making it easier for low-income individuals and families to access healthy, affordable food. This resource aims to alleviate some of the financial and time pressures associated with meal preparation.
 
-Low-Income Families: Families who need to provide meals for multiple members while keeping costs low. 
+### Target Audience
+SaveAMeal is designed for:
 
-Students: University or college students who need to budget their meals and often lack cooking experience. 
+- Low-Income Families
+- Students
+- Single Parents
+- Working Professionals
+- Health-Conscious Individuals on a Budget
 
-Single Parents: Individuals who need quick and easy meal solutions that won’t break the bank. 
+### Significance
+SaveAMeal addresses the need for accessible, nutritious meal options in low-cost ranges. By promoting community sharing of budget-friendly recipes, it contributes to better food security and health outcomes for South African households.
 
-Working Professionals: People who have limited time to plan and prepare meals but want to save money on food. 
+### Built with:
+- [PHP](https://www.php.net/)
+- [MySQL](https://www.mysql.com/)
+- [XAMPP](https://www.apachefriends.org/index.html)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Health-Conscious Individuals on a Budget: Users who want to maintain a healthy diet but need to stick to a limited budget. 
+## Getting Started:
+Follow the steps below to get a copy of the project running on your local machine.
 
-Benefits: This application will enable users to: 
+### Prerequisites
 
-Discover meal ideas with a clear indication of the cost per meal. 
+- Download and install [XAMPP](https://www.apachefriends.org/index.html), which includes Apache, PHP, and MySQL.
+- Make sure your system is running the latest version of PHP and MySQL.
 
-View nutritional information like calories, making it easier to choose healthier options. 
+### How to Install:
+* Download the files
+* Place the `saveameal` folder inside your XAMPP `htdocs` folder
+* Create a database called `saveameal` and import the SQL file provided
+* Start XAMPP Control Panel
+* Start Apache and MySQL
+* Enjoy the web application by navigating to `http://localhost/saveameal`
 
-Share their own affordable meals, allowing others to benefit from a growing library of low-cost meals to buy. 
+## Features and Functionality:
+The web application consists of five main pages:
 
- 
+- **Sign Up and Log In Pages**: Handle user registration and authentication.
+- **Main Feed**: Displays all available meals, including ingredients. Editing and deleting options are restricted to the user who created the meal.
+- **Meal Page**: Displays the meal information, including ingredients, prep time, calories, and user comments as well as the creator of the meal, and a buy meal button.
+- **Create Meal Page**: Allows users to post new meals with relevant information like calories, preparation time, and cost.
+- **Profile Page**: Users can update their personal information, including username, email, and password.
 
+# Additional features include:
+- **Commenting**: Users can leave feedback on each meal to build a community atmosphere.
+- **Liking**: Users can like any comment made.
 
-3. Technology Stack 
+Each page includes a navigational link to log out and return to the Log In screen.
 
-The website will use the LAMP stack (Linux, Apache, MySQL, PHP), running on XAMPP for local development on a Windows PC. 
+## Concept Process:
 
-Justification for LAMP stack: 
+### Ideation:
+The initial concept was to develop a platform tailored to users who need low cost meals while emphasizing nutrition. 
 
-The LAMP stack is well-suited for web applications that require a robust database system (MySQL) and dynamic web pages (PHP). It is widely used, stable, and highly scalable, which makes it perfect for building a meal website with CRUD (Create, Read, Update, Delete) functionality. 
+### Security Considerations:
+- **Input Validation**: Ensures protection against SQL injection and XSS attacks.
+- **Authentication and Authorization**: Restricts meal creation and commenting to registered users.
+- **Session Management**: Secure session handling to prevent unauthorized access.
 
-PHP will be used to handle user authentication, display meal data dynamically, and process CRUD operations. 
+### Wireframes:
+Log In, Sign Up, Main Feed, Post Meal, Meal Details
 
-MySQL is a relational database that will store all information about meals, users, comments, and other site data. 
+![Group 32](https://github.com/user-attachments/assets/6780b456-0121-44d0-86cc-326802b58bb4)
 
-Apache will serve the web pages and handle user requests, ensuring the site runs smoothly on the development environment. 
+### User Interface and Experience:
+The UI is designed for simplicity and ease of navigation. Meal cards are displayed in a clean grid format, with intuitive forms for creating and editing meals, and a straightforward layout that enables users to navigate with ease.
 
-XAMPP provides an easy-to-install environment with all components pre-configured, making it simpler to manage and develop the application on a Windows PC. 
+## Development Process
 
-Component Overview: 
+### Implementation Process
 
-PHP: Used for server-side scripting to handle user interactions, display meals, and manage user sessions. 
+- Implemented CRUD functionalities using PHP and MySQL.
+- Styled the application using plain CSS and HTML.
+- Integrated JavaScript for additional frontend functionality.
 
-MySQL: Stores user data, meals, comments, and other relevant site content. 
+### Highlights:
+Successfully implemented database relationships for meals and comments, enabling users to create, read, update, and delete entries. The platform's responsive layout and efficient database management were other high points.
 
-Apache: Hosts the application and processes web requests. 
+### Challenges:
+Challenges included managing relational database structures and debugging frontend issues related to user interactions. These obstacles were overcome through systematic troubleshooting and code refinement.
 
-Linux (XAMPP): Simulates the production server environment for local testing and development. 
+## Future Implementation:
+- **Advanced Filtering**: Options to filter meals based on dietary restrictions or specific ingredients.
+- **User Rating System**: A feature to rate meals, fostering user engagement.
+- **Recipe Suggestions**: Personalized meal recommendations based on user preferences.
 
+## Final Outcome
 
- 
+### Demonstration Video
+https://drive.google.com/file/d/1rvC4l12_sevLojgkqTrCnqQIp6AJeyN8/view?usp=sharing
 
-4. Application Features 
+## Roadmap
+ER Diagram
+![history drawio (1)](https://github.com/user-attachments/assets/5b0e7393-fa9b-4f1d-92e4-d694542e4a3d)
 
-User Authentication (Sign In/Sign Up Pages): 
+## Conclusion
+SaveAMeal has provided a rewarding learning experience, solidifying skills in PHP, MySQL, and database management. The project also highlighted the importance of user-centered design. Future expansions could include enhanced user interactions and additional features to meet community needs.
 
-Users can create an account or log in to their existing account. This ensures that only registered users can post meals and leave comments. 
+## Author
 
-Passwords will be securely hashed before storage in the database to protect user data. 
+- **Anemi Breytenbach** - [AnemiB](https://github.com/AnemiB)
 
-Home Page: 
+## License
 
-The home page will display all meals in a grid format, including meal images, names, ingredients, and costs. 
+Distributed under the MIT License.
 
-Users can filter meals based on criteria like cost, preparation time, or calorie count, making it easy to find meals that fit their specific needs. 
+## Contact
 
-Each meal will have a clickable link to its detailed meal page. 
+- **Anemi Breytenbach** - [231178@virtualwindow.co.za] 
+- **Project Link** - [ https://github.com/AnemiB/SaveAMeal](https://github.com/AnemiB/SaveAMeal)
 
-Meal Page: 
+## Acknowledgements
 
-When a user clicks on a meal, they are directed to the meal page that shows: 
+- [XAMPP](https://www.apachefriends.org/index.html)
+- [PHP](https://www.php.net/)
+- [MySQL](https://www.mysql.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-The user who posted the meal. 
-
-Name of the meal 
-
-A photo of the meal. 
-
-Ingredients, calories, preparation time, and instructions for cooking. 
-
-Cost of the meal 
-
-At the bottom of the page, users can view and post comments about the meal, offering feedback or additional tips. 
-
-Create Meal Page: 
-
-Registered users can create a new meal post by entering details like: 
-
-Meal name. 
-
-Total calories. 
-
-Preparation time. 
-
-Cooking instructions. 
-
-Total cost. 
-
-Upload a photo of the meal. 
-
-This meal will then be posted on the home page for others to view. 
-
-CRUD Operations: 
-
-Create: Users can create meal posts, allowing them to sell their budget-friendly meals. 
-
-Read: All users can view meal details on the home page and meal page. 
-
-Update: Users can update their profiles 
-
-Delete: Users can delete their own meal posts if needed, keeping the content relevant and up to date. 
-
-
- 
-
-5. Database Design 
-
-The website will utilize a MySQL database to store user, meal, and comment information. 
-
-Key Tables: 
-
-users: 
-
-Fields: user_id, username, email, password. 
-
-Function: Stores information about registered users, including their login credentials and identification. 
-
-meals: 
-
-Fields: meal_id, user_id (foreign key), meal_name, ingredients, calories, prep_time, instructions, cost, meal_image. 
-
-Function: Stores the details of each meal, including which user posted it. 
-
-comments: 
-
-Fields: comment_id, meal_id (foreign key), user_id (foreign key), comment_body. 
-
-Function: Stores comments from users on different meal posts. 
-
-Relationships: 
-
-Each meal is associated with a user who created it, allowing for a connection between meals and their creators. 
-
-Comments will be linked to both the meal and the user who posted the comment. 
-
-Normalization Considerations: 
-
-To avoid redundancy, the database will be normalized, ensuring that meal details are stored in the appropriate table and referenced using foreign keys. 
-
- 
-
-
-6. User Interface and Experience 
-
-The website’s design will focus on being simple, intuitive, and user-friendly to accommodate users from different backgrounds, including those with little to no technical skills. 
-
-UI Elements: 
-
-Home Page: A visually appealing grid of meal cards, each showing a meal image, name, ingredients, and cost. Users can click on a meal to view more details. 
-
-Navigation Bar: Easy access to the home page, sign-in page, and create meal page as well as a log-out button. 
-
-Create Meal Page: Simple, clear input fields that make it easy for users to upload meals and enter all relevant details. 
-
-User Experience (UX): 
-
-The design will prioritize ease of use, ensuring that users can quickly find meals within their price range. 
-
-The comment feature will encourage engagement, allowing users to discuss the meals, offer tips, and share feedback. 
-
-
- 
-
-7. Security Considerations 
-
-Input Validation: All forms will have input validation to prevent malicious data from being entered. For example, when users post meals or leave comments, their inputs will be sanitized to prevent SQL injection or XSS attacks. 
-
-
- 
-
-Authentication and Authorization: 
-
-Password Hashing: User passwords will be hashed using a secure algorithm before being stored in the database, ensuring that even in the event of a data breach, passwords remain protected. 
-
-User Roles: Only registered users will be able to create and comment on meals. This will prevent anonymous users from posting or spamming the website. 
-
-Session Management: Secure session management will be implemented to prevent session hijacking or unauthorized access to user accounts.
