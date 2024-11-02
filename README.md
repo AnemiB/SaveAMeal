@@ -35,9 +35,10 @@
 
 ### Live Website
 Visit the SaveAMeal website at: 
+http://saveameal.co.za as well as
 http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ 
-and 
-http://saveameal.co.za
+
+
 
 
 ### Mockup:
