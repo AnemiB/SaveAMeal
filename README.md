@@ -153,7 +153,7 @@ Challenges included managing relational database structures and debugging fronte
 ## Final Outcome
 
 ### Demonstration Video
-https://drive.google.com/file/d/1rvC4l12_sevLojgkqTrCnqQIp6AJeyN8/view?usp=sharing
+https://drive.google.com/file/d/1LHhG1VKR-J69uwRLZ-xJdzQ-W5nwB0nI/view?usp=sharing
 
 ## Roadmap
 ER Diagram
