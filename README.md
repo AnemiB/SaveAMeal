@@ -1,7 +1,7 @@
 ## <p align="center" style="text-decoration: none !important;padding:0;margin:0;">Anemi Breytenbach <br> 231178 <br> DV 200 Term 4</p>
 
 <p align="center">
-<img src="saveameal/images/logowhite.png" alt="Logo" width="160" height="140">
+<img src="saveameal/images/logowhite.png" alt="Logo" width="140" height="140">
 </p>
 
 ## Table of Contents
