@@ -33,9 +33,11 @@
 ## About the project:
 ![Screenshot (12182)](https://github.com/user-attachments/assets/40ef7da5-a123-4abd-b6f3-649818357118)
 
-Live Website
+### Live Website
 Visit the SaveAMeal website at: 
-http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ and http://saveameal.co.za
+http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ 
+and 
+http://saveameal.co.za
 
 
 ### Mockup:
