@@ -33,7 +33,7 @@
 ## About the project:
 ![Screenshot (12182)](https://github.com/user-attachments/assets/40ef7da5-a123-4abd-b6f3-649818357118)
 
-## Live Website
+# Live Website
 Visit the SaveAMeal website at: 
 http://saveameal.co.za as well as
 http://ec2-13-60-184-172.eu-north-1.compute.amazonaws.com/ 
@@ -94,7 +94,7 @@ The web application consists of five main pages:
 - **Create Meal Page**: Allows users to post new meals with relevant information like calories, preparation time, and cost.
 - **Profile Page**: Users can update their personal information, including username, email, and password.
 
-# Additional features include:
+### Additional features include:
 - **Commenting**: Users can leave feedback on each meal to build a community atmosphere.
 - **Liking**: Users can like any comment made.
 
